@@ -1,0 +1,154 @@
+/*styles*/
+
+@font-face {
+    font-family: 'GeosansLight';
+    src: url('assets/GeosansLight.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Strongarm';
+    src: url('assets/Strongarm.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-image: url('../jpgs/star_homepage.jpg');
+    background-repeat: repeat;
+}
+
+
+.byline {
+    color: white;
+    font-family: "Geosanslight", georgia;
+    font-size: 2vw;
+    margin-top: 10vw;
+    
+}
+.credits {
+    color: white;
+    font-family: "Geosanslight", georgia;
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+.top {
+    height:30px;
+}
+
+.bxslider {
+    float: none;
+    width: 100%;
+}
+
+.slide {
+    position: relative;
+}
+
+
+
+.quiz-text {
+    padding-left: 5vw;
+    padding-top: 3vw;
+    position: relative;
+    background-image: url('../jpgs/star_homepage.jpg');
+    font-family: "Strongarm", Georgia;
+    color: white;
+    font-size: 4vw;
+}
+
+.home_title {
+    position: absolute;
+    text-align: left;
+    font-size: 8vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    font-family: "Strongarm", Georgia;
+    color: white;
+    
+}
+
+
+.title {
+    position: absolute;
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-left: 8vw;
+    font-family: "Strongarm", Georgia;
+    color: white;
+    width: auto;
+    
+}
+.caption-words {
+    padding-top: 1vw;
+    font-size: 1.5vw;
+    color: white;
+    font-family: "GeosansLight", Georgia;
+    position: absolute;
+    height: auto;
+    width: 40vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+}
+
+.rocket {
+    max-width: 25%;
+    margin-top: 12vw;
+    margin-left: 4vw; 
+    float: left;
+    position: absolute;
+}
+
+.rocket-1 {
+    margin-top: 4vw;
+}
+
+.rocket-2 {
+    margin-top:10vw;
+
+}
+
+.rocket-3 {
+    margin-top:6vw;
+
+}
+
+
+.float:hover {
+position: relative;
+-webkit-animation: floatBubble 3s infinite;
+    -webkit-animation-direction:alternate;
+  }
+
+
+@-webkit-keyframes floatBubble{
+ from{
+        bottom:0;
+        -webkit-animation-timing-function: ease-in;
+
+   }
+
+
+   to {
+      bottom: 500px;
+      -webkit-animation-timing-function: ease-out;
+   }
+
+}
+
+.tip {
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-family: "GeosansLight", Georgia;
+    font-size: 2.5vw;
+    margin-left: 30vw;
+    margin-top: 20vw;
+    position: absolute;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    width: 40%;
+}
